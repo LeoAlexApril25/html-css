@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML 5</title>
+    <style>
+        h1{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        p{
+            justify-content: center;
+        }
+        body{
+            display:inline-block;
+            background-color:#406386;
+            
+        }
+        video{
+            display: grid;
+            place-items: center;
+            max-width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inserindo fromas diferentes de cer um vídeo</h1>
+
+    </header>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+         <video width="560" poster="imagem/1105993.webp" controls >
+        <source src="midia/DmC.mkv" type="video/mkv">
+        <source src="midia/DmC.webm" type="video/webm">
+        <source src="midia/DmC.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+        </video>
+
+        <h1>Inserindo vídeos do Youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JqpwI29JlOc?si=4VjDRTpCoCL2bkfR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    <footer>
+        <p>&copy; Leonardo Alexsander.Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>

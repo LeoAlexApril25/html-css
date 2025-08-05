@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+a:hover{
+    color: blueviolet;
+    border: 0px;
+    padding: 10px 20 px;
+    cursor: pointer;
+}
+
+
+
+.alfa{
+    background-color: rgb(175, 175, 55);
+    
+}
+
+.second{
+    color: rgb(146, 146, 75);
+}
+
+.yellow{
+    color:  rgb(146, 146, 75) ;
+}
+
+
+
+.beta{
+    background-color: rgb(107, 179, 93);
+}
+
+.third{
+    color: rgb(105, 139, 89);
+
+}
+
+.green{
+    color:rgb(105, 139, 89);
+}
