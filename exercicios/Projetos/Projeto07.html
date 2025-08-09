@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+   
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Voce está vendo a imagem completa ? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiencia 🤯</p>
+    <picture>
+        <source media="(max-width: 480px)" srcset="imagem/Journeis_continued-small.png" type="image/png">
+        <source media="(max-width: 720px)" srcset="imagem/Journeis_continued-medium.png" type="image/png">
+        <source media="(max-width: 1280px)" srcset="imagem/Journeis_continued-max.png" type="image/png">
+        <img src="imagem/Journeis_continued.png" alt="O caminho até o objetivo se inicia.">
+    </picture>
+    
+</body>
+</html>
