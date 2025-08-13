@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus vídeos</title>
+    <style>
+     body {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  /* Containers para cada linha de imagens */
+  .First, .Second {
+    display: flex;
+    flex-direction: row;      /* Imagens lado a lado */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 20px;               /* Espaço entre imagens */
+    margin-bottom: 30px;     /* Espaço entre as linhas */
+  }
+  
+  img {
+    width: 200px;
+    height: 270px;
+    object-fit: cover;       /* Mantém proporção sem distorcer */
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px #a10c0cd8;
+  }
+
+  /* Responsivo: empilha imagens em telas pequenas */
+  @media (max-width: 600px) {
+    .First, .Second {
+      flex-direction: column; /* Imagens uma embaixo da outra */
+      align-items: center;   /* Centraliza no mobile */
+    }
+  }
+      
+  
+      
+    </style>
+</head>
+<body>
+    <h1>Videos legais para assisttir</h1>
+  <div class="First" >
+    <a href="Projeto009_01.html" target="_self" rel="next">
+      <img src="imagem/God of war_small_size5.jpg" alt="Abrir WhatsApp" width="200px" >
+    </a>
+    <a href="Projeto009_02.html" target="_self" rel="next">
+      <img src="imagem/Fighter_Street_06.jpeg" alt="Abrir WhatsApp" width="200px">
+    </a>
+    </div>
+
+    <div class="Second" >
+      <a href="">
+        <img src="imagem/Forza 5.jpeg" alt="">
+      </a>
+      <a href="">
+        <img src="imagem/red-dead-redemption-2_5.png" alt="">
+      </a>
+    </div>
+</body>
+</html>
