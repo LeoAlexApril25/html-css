@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family:sans-serif;
+            text-align:justify;
+            background-color: rgb(214, 214, 214);
+        }
+
+        div{
+            text-align: center;
+            width: 300px;
+            height: 200px;
+            border-style:solid;
+            border-radius: 8px;
+            text-indent: 8px;
+            box-shadow: 5px 5px 5px rebeccapurple;
+            background-color: steelblue;
+        }
+
+        div > p{
+            display:none
+        }
+
+        div:hover > p{
+            display: block;
+            color: rgba(173, 10, 10, 0.637);
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Exemplo hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+
+    <div>
+        Passe aqui o mouse
+        <p>TEXTO ESCODINDO ...</p>
+        Fim do texto.
+    </div>
+    
+</body>
+</html>
